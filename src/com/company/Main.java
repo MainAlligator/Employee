@@ -34,13 +34,15 @@ public class Main {
 
 
         for (Employee employee : employees) {
+            if (employee != null) {
 
-            out.println(employee.getSurname() + " " + employee.getName() + "Относится к отделу" + " " + employee.getDepartment().getDepartment());
+                out.println(employee.getSurname() + " " + employee.getName() + "Относится к отделу" + " " + employee.getDepartment().getDepartment());
 
-           // programmersDepartment.removeEmployee(employees[2]);
+                // programmersDepartment.removeEmployee(employees[2]);
 
             }
         }
     }
+}
 
 
